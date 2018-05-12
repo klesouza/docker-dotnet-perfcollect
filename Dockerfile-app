@@ -1,0 +1,21 @@
+FROM ksilva/dotnet-trace-base
+
+WORKDIR /code
+
+COPY app/api/* ./
+RUN dotnet publish --self-contained -r linux-x64
+
+RUN cp /root/.nuget/packages/runtime.linux-x64.microsoft.netcore.app/2.0.0/tools/crossgen \
+    /code/bin/Debug/netcoreapp2.0/linux-x64/publish/
+RUN cp /root/.nuget/packages/runtime.linux-x64.microsoft.netcore.app/2.0.0/tools/crossgen \
+    /usr/share/dotnet/shared/Microsoft.NETCore.App/2.0.3/
+
+WORKDIR /code/bin/Debug/netcoreapp2.0/linux-x64/publish
+
+#CMD ["dotnet", "code.dll"]
+RUN echo "#!/bin/bash" >> entrypoint.sh \
+    && echo '/code/run-perf.sh > $RESULT_PATH &' >> entrypoint.sh \
+    && echo "dotnet code.dll" >> entrypoint.sh \
+    && chmod +x entrypoint.sh
+
+CMD ["./entrypoint.sh"]
