@@ -1,20 +1,18 @@
+# Idea
+The idea is to provide a base image to enable the collection of trace logs for a .NET Core applications running in a docker container. The reports are not very useful yet, but you can have an idea about GC, allocation and exceptions thrown.
+
 # How to use
+```bash
+./build-docker-base.sh
 ```
+
+Navigate to `examples` folder
+
+```bash 
 ./start.sh
 ```
 
-1. In one shell 
-
-``` 
-docker exec -it --privileged dotnet-trace /tmp/perfcollect collect /tmp/prof/perfsession -pid $(pgrep dotnet)
-```
-2. Open a new shell and make a request
-```
-docker exec -it dotnet-trace curl http://localhost:5000/api/values
-```
-3. In the first shell stop the collection (Crtl+C) 
-
-4. Files will be generated in the /data folder in the host machine
+Files will be generated in the `data` folder in the host machine.
 
 ## References
 https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/linux-performance-tracing.md
