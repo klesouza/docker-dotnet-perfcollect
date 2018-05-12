@@ -1,0 +1,49 @@
+Spawning a session daemon
+Spawning a relayd daemon
+Session dntrace-session created.
+Traces will be written in net://127.0.0.1
+Live timer set to 1000000 usec
+UST channel chan enabled for session dntrace-session
+PID 7 tracked in session dntrace-session
+UST context vpid added to channel chan
+UST context vtid added to channel chan
+UST context procname added to channel chan
+UST event DotNETRuntime:GCStart* created in channel chan
+UST event DotNETRuntime:GCEnd* created in channel chan
+UST event DotNETRuntime:GCTriggered created in channel chan
+UST event DotNETRuntime:GCHeapStats* created in channel chan
+UST event DotNETRuntime:GCAllocationTick* created in channel chan
+UST event DotNETRuntime:Exception* created in channel chan
+Tracing started for session dntrace-session
+Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
+Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
+Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
+Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
+Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
+Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
+Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
+--- EVENT SUMMARY ---
+Total GC invocations: 0
+Total GC duration: 0.00000000 seconds
+Total GC triggered: 0
+Average GC duration: 0.00000000 seconds
+Generation 0 GC: 0
+Generation 1 GC: 0
+Generation 2 GC: 0
+Total allocated bytes: 2,858,296
+Top 10 allocated types:
+  System.String                         6
+  System.Reflection.RuntimeParam        3
+  System.Byte[]                         3
+  System.Object[]                       2
+  System.Reflection.RuntimeMetho        2
+  Work[]                                2
+  System.String[]                       1
+  System.Text.StringBuilder             1
+  System.RuntimeMethodInfoStub          1
+  System.Signature                      1
+Total exceptions thrown: 7
+  "Microsoft.AspNetCore.Server.K 7
+Waiting for data availability
+Tracing stopped for session dntrace-session
+Session dntrace-session destroyed

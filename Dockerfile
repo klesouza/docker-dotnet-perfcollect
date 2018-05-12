@@ -24,15 +24,6 @@ RUN cp /root/.nuget/packages/runtime.linux-x64.microsoft.netcore.app/2.0.0/tools
 
 RUN export COMPlus_PerfMapEnabled=1 \
     && export COMPlus_EnableEventLog=1
-
-
-#RUN echo "#!/bin/bash" >> entrypoint.sh \
-#    && echo "dotnet code.dll" >> entrypoint.sh \
-#    && chmod +x entrypoint.sh
-
-#    && echo "exit" >> entrypoint.sh \
-#    && echo "curl http://localhost:5000" \
-#    && echo "/tmp/perfcollect collect /tmp/prof/perfcollect"  >> entrypoint.sh \
     
 #CMD ./entrypoint.sh
 RUN apt-get -y install babeltrace
