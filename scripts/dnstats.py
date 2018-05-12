@@ -201,6 +201,11 @@ class ExceptionEventConsumer(object):
 
 def create_event(line):
     parts = line.split()
+    with open("/tmp/prof/raw.txt", "a") as f:
+        f.write(line)
+        if len(parts) < 4 or len(parts[3].split(':')) < 2:
+            f.write("Line above not parsed")
+            return None
     event_type = parts[3].split(':')[1]
     if event_type == "GCStart_V2":
         return GCStartEvent(parts)
@@ -238,6 +243,8 @@ if interval != -1:
 try:
     for line in sys.stdin:
         event = create_event(line)
+        if event is None:
+            continue
         for consumer in consumers:
             consumer.consume(event)
             consumer.print_event(event) # This can print or do nothing

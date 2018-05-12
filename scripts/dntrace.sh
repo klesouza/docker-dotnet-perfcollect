@@ -88,6 +88,12 @@ function view {
              net://localhost/host/`hostname`/$session | python /code/dnstats.py $interval
 }
 
+function viewAndExit {
+    view
+    destroy
+    exit
+}
+
 while getopts p:d:i:h? opt
 do
     case $opt in
@@ -111,5 +117,4 @@ for event in "$@"; do
     esac
 done
 record
-view
-destroy
+viewAndExit &

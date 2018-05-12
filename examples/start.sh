@@ -7,6 +7,7 @@ docker run -p 5000:5000 \
     -e "COMPlus_PerfMapEnabled=1" \
     -e "COMPlus_EnableEventLog=1" \
     -e "RESULT_PATH=/tmp/prof/result.txt" \
+    -e "LTTNG_SESSIOND_PATH=/tmp/prof" \
     --security-opt seccomp=$(pwd)/seccomp.json \
     --name dotnet-trace-app  \
     ksilva/dotnet-trace-app

@@ -4,7 +4,6 @@ Session dntrace-session created.
 Traces will be written in net://127.0.0.1
 Live timer set to 1000000 usec
 UST channel chan enabled for session dntrace-session
-PID 7 tracked in session dntrace-session
 UST context vpid added to channel chan
 UST context vtid added to channel chan
 UST context procname added to channel chan
@@ -15,35 +14,274 @@ UST event DotNETRuntime:GCHeapStats* created in channel chan
 UST event DotNETRuntime:GCAllocationTick* created in channel chan
 UST event DotNETRuntime:Exception* created in channel chan
 Tracing started for session dntrace-session
-Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
-Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
-Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
-Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
-Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
-Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
-Exception of type "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException" thrown: "Error
+GC finished in generation 0, took 0.00210238 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 823,328 bytes
+  Gen 2 size: 24 bytes
+GC finished in generation 0, took 0.00148582 seconds
+  Gen 0 size: 214,272 bytes
+  Gen 1 size: 457,064 bytes
+  Gen 2 size: 24 bytes
+GC finished in generation 0, took 0.00163221 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 471,296 bytes
+  Gen 2 size: 24 bytes
+Exception of type "System.IO.FileNotFoundException" thrown: "Could
+Exception of type "System.IO.FileNotFoundException" thrown: "Could
+GC finished in generation 1, took 0.00424719 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 1,198,584 bytes
+  Gen 2 size: 461,888 bytes
+Exception of type "System.Reflection.ReflectionTypeLoadException" thrown: "Unable
+GC finished in generation 0, took 0.00317383 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 2,161,144 bytes
+  Gen 2 size: 461,888 bytes
+GC finished in generation 0, took 0.00218868 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 2,561,840 bytes
+  Gen 2 size: 461,888 bytes
+Exception of type "System.Reflection.ReflectionTypeLoadException" thrown: "Unable
+Exception of type "System.IO.FileNotFoundException" thrown: "Could
+Exception of type "System.IO.FileNotFoundException" thrown: "Could
+GC finished in generation 0, took 0.00485945 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 4,031,376 bytes
+  Gen 2 size: 461,888 bytes
+Exception of type "System.Reflection.ReflectionTypeLoadException" thrown: "Unable
+GC finished in generation 2, took 0.01171350 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 146,440 bytes
+  Gen 2 size: 2,279,968 bytes
+GC finished in generation 0, took 0.00077534 seconds
+  Gen 0 size: 1,808 bytes
+  Gen 1 size: 146,440 bytes
+  Gen 2 size: 2,279,968 bytes
+GC finished in generation 0, took 0.00054264 seconds
+  Gen 0 size: 936 bytes
+  Gen 1 size: 146,440 bytes
+  Gen 2 size: 2,279,968 bytes
+GC finished in generation 0, took 0.00041294 seconds
+  Gen 0 size: 3,176 bytes
+  Gen 1 size: 146,440 bytes
+  Gen 2 size: 2,279,968 bytes
+Exception of type "System.Reflection.ReflectionTypeLoadException" thrown: "Unable
+GC finished in generation 0, took 0.00045729 seconds
+  Gen 0 size: 5,792 bytes
+  Gen 1 size: 146,440 bytes
+  Gen 2 size: 2,279,968 bytes
+GC finished in generation 0, took 0.00216961 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 289,488 bytes
+  Gen 2 size: 2,279,968 bytes
+GC finished in generation 0, took 0.00479078 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 1,537,000 bytes
+  Gen 2 size: 2,279,968 bytes
+GC finished in generation 1, took 0.00246906 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 360,608 bytes
+  Gen 2 size: 444,704 bytes
+Exception of type "System.DllNotFoundException" thrown: "Unable
+GC finished in generation 0, took 0.00412369 seconds
+  Gen 0 size: 1,675,536 bytes
+  Gen 1 size: 2,609,744 bytes
+  Gen 2 size: 2,279,968 bytes
+GC finished in generation 0, took 0.00447750 seconds
+  Gen 0 size: 5,905,808 bytes
+  Gen 1 size: 3,003,072 bytes
+  Gen 2 size: 2,279,968 bytes
+GC finished in generation 1, took 0.01560783 seconds
+  Gen 0 size: 3,515,568 bytes
+  Gen 1 size: 69,944 bytes
+  Gen 2 size: 3,790,672 bytes
+GC finished in generation 0, took 0.00142288 seconds
+  Gen 0 size: 2,617,152 bytes
+  Gen 1 size: 157,424 bytes
+  Gen 2 size: 3,790,672 bytes
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+GC finished in generation 0, took 0.00082350 seconds
+  Gen 0 size: 2,617,152 bytes
+  Gen 1 size: 157,424 bytes
+  Gen 2 size: 3,790,672 bytes
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+GC finished in generation 0, took 0.00097752 seconds
+  Gen 0 size: 2,488,496 bytes
+  Gen 1 size: 286,080 bytes
+  Gen 2 size: 3,790,672 bytes
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.ObjectDisposedException" thrown: "Cannot
+Exception of type "System.Net.Http.CurlException" thrown: "Failed
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+Exception of type "System.Net.Http.HttpRequestException" thrown: "Response
+GC finished in generation 0, took 0.00577259 seconds
+  Gen 0 size: 2,488,496 bytes
+  Gen 1 size: 286,080 bytes
+  Gen 2 size: 3,790,672 bytes
+GC finished in generation 0, took 0.00345898 seconds
+  Gen 0 size: 2,363,784 bytes
+  Gen 1 size: 410,792 bytes
+  Gen 2 size: 3,790,672 bytes
+GC finished in generation 0, took 0.00133038 seconds
+  Gen 0 size: 1,884,824 bytes
+  Gen 1 size: 516,656 bytes
+  Gen 2 size: 444,704 bytes
+GC finished in generation 0, took 0.00439548 seconds
+  Gen 0 size: 2,363,784 bytes
+  Gen 1 size: 410,792 bytes
+  Gen 2 size: 3,790,672 bytes
+GC finished in generation 2, took 0.00509548 seconds
+  Gen 0 size: 24 bytes
+  Gen 1 size: 307,448 bytes
+  Gen 2 size: 888,024 bytes
 --- EVENT SUMMARY ---
-Total GC invocations: 0
-Total GC duration: 0.00000000 seconds
-Total GC triggered: 0
-Average GC duration: 0.00000000 seconds
-Generation 0 GC: 0
-Generation 1 GC: 0
-Generation 2 GC: 0
-Total allocated bytes: 2,858,296
+Total GC invocations: 26
+Total GC duration: 0.09050655 seconds
+Total GC triggered: 26
+Average GC duration: 0.00348102 seconds
+Generation 0 GC: 21
+Generation 1 GC: 3
+Generation 2 GC: 2
+Total allocated bytes: 97,066,768
 Top 10 allocated types:
-  System.String                         6
-  System.Reflection.RuntimeParam        3
-  System.Byte[]                         3
-  System.Object[]                       2
-  System.Reflection.RuntimeMetho        2
-  Work[]                                2
-  System.String[]                       1
-  System.Text.StringBuilder             1
-  System.RuntimeMethodInfoStub          1
-  System.Signature                      1
-Total exceptions thrown: 7
-  "Microsoft.AspNetCore.Server.K 7
+  System.String                       227
+  RuntimeTypeCache                    116
+  System.RuntimeType[]                 72
+  System.Char[]                        62
+  MemberInfoCache`1[System.Runti       58
+  System.Byte[]                        32
+  System.Type[]                        26
+  System.Object[]                      22
+  System.String[]                      21
+  System.RuntimeType                   15
+Total exceptions thrown: 137
+  "System.Net.Http.HttpRequestEx 102
+  "System.Net.Http.CurlException 13
+  "System.ObjectDisposedExceptio 13
+  "System.Reflection.ReflectionT 4
+  "System.IO.FileNotFoundExcepti 4
+  "System.DllNotFoundException"  1
 Waiting for data availability
 Tracing stopped for session dntrace-session
 Session dntrace-session destroyed

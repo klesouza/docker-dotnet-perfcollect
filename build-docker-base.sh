@@ -1,1 +1,1 @@
-docker build . -f Dockerfile-base -t ksilva/dotnet-trace-base
+docker build . -f Dockerfile -t ksilva/dotnet-trace-base
